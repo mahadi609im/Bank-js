@@ -1,0 +1,105 @@
+body{
+   max-width: 500px;
+   margin: 10px auto;
+   border: 2px solid #1877f2;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 0px;
+}
+
+.card1, .card2, .card3{
+   padding: 10px 20px;
+   margin: 10px 10px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+p{
+   font-size: 20px;
+}
+
+.card1{
+   background: lightblue;
+   text-wrap: wrap;
+}
+
+.card2{
+   background: lightskyblue;
+}
+
+.card3{
+   grid-column: span 2;
+   background: lightgreen;
+}
+
+
+
+
+
+.card4, .card5{
+   padding: 10px 20px;
+   margin: 10px 10px;
+   text-align: center;
+   border-radius: 5px;
+}
+
+p{
+   font-size: 20px;
+}
+
+.card4{
+   background: lightpink;
+}
+
+.card5{
+   background: lightsteelblue;
+}
+
+
+
+input {
+  height: 55px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin: 0 auto 15px;
+  font-size: 1rem;
+  padding: 0 14px;
+  display: block;
+}
+
+form input:focus {
+  outline: none;
+  border-color: #1877f2;
+}
+
+::placeholder {
+  color: #777;
+  font-size: 1.063rem;
+}
+
+.btns{
+   display: grid;
+   grid-template-columns: repeat(2, .5fr);
+   margin: 0 80px 20px;
+   gap: 15px;
+}
+
+.reset, .submit{
+  border: none;
+  outline: none;
+  background: #1877f2;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.reset{
+   background: lightcoral;
+}

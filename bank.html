@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bap er bank</title>
+      <link rel="stylesheet" href="bank.css" type="text/css" media="all" />
+   </head>
+   <body>
+      <div class="card-container">
+        <div class="card1">
+            <h2>Deposit</h2>
+            <p>$<span id="deposit-amount">00</span></p>
+         </div>
+        <div class="card2">
+            <h2>withdraw</h2>
+            <p>$<span id="withdraw-amount">00</span></p>
+         </div>
+        <div class="card3">
+            <h2>Balance</h2>
+            <p>$<span id="balence-amount">5570</span></p>
+         </div>
+      </div>
+      
+      
+      <div>
+         <div class="card4">
+            <h2>Please Deposit</h2>
+            <input type="number" id="deposit-input" placeholder="$ amount you want to deposit">
+            <div class="btns">
+               <button class="reset" id="deposit-reset">Reset</button>
+               <button class="submit" id="deposit-submit">Deposit</button>
+            </div>
+         </div>
+        
+        <div class="card5">
+            <h2>Please withdraw</h2>
+            <input type="number" id="withdraw-input" placeholder="$ amount you want to withdraw">
+            <div class="btns">
+               <button class="reset" id="withdraw-reset">Reset</button>
+               <button class="submit" id="withdraw-submit">Withdraw</button>
+            </div>
+         </div>
+      </div>
+      
+      <script src="bank.js" type="text/javascript" charset="utf-8"></script>
+   </body>
+</html>
